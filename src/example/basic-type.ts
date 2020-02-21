@@ -51,7 +51,7 @@ const test = (text: string): void => {
 }
 test('abc')
 
-// null和undefined 是所有其他类型的子类型
+// null和undefined 是其他任何类型（包括 void）的子类型
 let u: undefined
 u = undefined
 // u = 123 报错
