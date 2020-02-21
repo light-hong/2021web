@@ -61,7 +61,7 @@ n = null
 value = undefined
 value = null
 
-// never类型 不可能的类型
+// never类型 never 是其它类型（包括 null 和 undefined）的子类型，代表从不会出现的值
 const errorFunc = (message: string): never => {
   throw new Error(message)
 }
