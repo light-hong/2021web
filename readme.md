@@ -21,3 +21,17 @@ package.json启动脚本
 "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js"
 
 build目录下添加webpack配置文件webpack.config.js
+
+环境搭建方法二：
+  1.全局下载ts:npm i typescript -g
+  2.查看版本:ts -v
+  3.编译ts自动生成js文件:tsc index.ts
+  4.vscode自动化编译
+    a.生成配置文件:tsconfig.json
+      tsc --init
+    b.修改配置
+      "module": "amd",
+      "outDir": "./js",
+      // "strict": true
+    c.启动监视任务
+      终端 -> 运行任务 -> 监视tsconfig.json
