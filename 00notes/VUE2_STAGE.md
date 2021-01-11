@@ -6,10 +6,10 @@
 
   ```javascript
   npm i rollup @babel/core @babel/preset-env rollup-plugin-babel -D;
-  	rollup: JavaScript模块打包器
-      @babel/core：babel编译核心库
-  	@babel/preset-env：babel es6转es5
-      rollup-plugin-babel：babel-rollup关联插件
+      /* rollup: JavaScript模块打包器;
+      @babel/core：babel编译核心库;
+      @babel/preset-env：babel es6转es5;
+      rollup-plugin-babel：babel-rollup关联插件; */
   ```
 
   
