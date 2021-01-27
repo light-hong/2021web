@@ -7,16 +7,22 @@
 </head>
 <body>
   <script src="dist/vue.js"></script>
-  <div id="app"></div>
+  <div id="app">{{name}}</div>
   <script>
     // viewModel 数据模型
     // 典型的MVVM view - vm - model
     let vm = new Vue({
       el: '#app',
-      data: {
+      /* data: {
         name: 'hello'
-      }
+      } */
+      data() {
+        return {
+          age: 26
+        }
+      },
     })
+    console.log(vm.age);
   </script>
 </body>
 </html>
